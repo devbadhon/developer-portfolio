@@ -15,7 +15,10 @@
     font-weight: 700;
     font-size: 20px;
     border: none;
-    padding: 18px 35px;
+    padding: 18px 50px;
+}
+.bp{
+    margin-top: 25px;
 }
 
 .header {
@@ -23,6 +26,7 @@
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    /* padding: 0px; */
 }
 
 /* header and navigation styles */
@@ -30,6 +34,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 50px 200px;
+    
 }
 
 .nav-titel {
